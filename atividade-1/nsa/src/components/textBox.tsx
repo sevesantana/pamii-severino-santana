@@ -21,12 +21,12 @@ const styles = StyleSheet.create ({
         marginTop: 64,
     },
     textBox: {
-        padding: 32,
+        padding: 24,
         borderWidth: 2,
         borderRadius: 16,
         borderColor: "#DCDCDC",
-        fontWeight: 300,
-        fontSize: 16,
+        width: "90%",
+        backgroundColor: "#F3F9FB"
     },
     title: {
         fontWeight: 600,
