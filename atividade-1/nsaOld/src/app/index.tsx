@@ -15,9 +15,9 @@ export default function Index(){
                 <Image source={require("@/assets/images/nsalogo.png")} style={styles.illustration}/>
 
                 <View style={styles.form}>
-                    <Input placeholder="Código da Etec (ex: 031)" />
-                    <Input placeholder="Digite seu RM" />
-                    <Input placeholder="Digite sua senha" />
+                    <Input placeholder="Código da Etec (ex: 031)" keyboardType="number-pad"/>
+                    <Input placeholder="Digite seu RM" keyboardType="number-pad"/>
+                    <Input placeholder="Digite sua senha"/>
                 
                     <Button label="ENTRAR" activeOpacity={0.5} onPress={() => router.push("/home/home")}/>
                 </View>
@@ -86,7 +86,7 @@ const styles = StyleSheet.create ({
     illustration: {
         justifyContent: "center",
         alignSelf: "center",
-        width: "50%",
+        width: "40%",
         height: 150,
         bottom: -20
     }

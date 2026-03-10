@@ -16,12 +16,12 @@ export function Button({label, ...rest} : ButtonProps){
 
 const styles = StyleSheet.create ({
     button:{
-        width: "48%",
+        width: "65%",
         justifyContent: "center",
         alignItems: "center",
         borderRadius: 8,
         backgroundColor: "#212121",
-        height: 60,
+        height: 45,
         padding: 16,
     },
     label: {
