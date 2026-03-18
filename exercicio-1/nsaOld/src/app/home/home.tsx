@@ -25,22 +25,6 @@ export default function Home(){
 
                 <Text style={styles.title}>MENU DE NAVEGAÇÃO</Text>
 
-                {/* <View style={styles.options}>
-                    <OptionsButton label="Aulas e faltas" activeOpacity={0.9}/>
-                    <OptionsButton label="Horários das aulas" activeOpacity={0.9}/>
-                </View>
-                <View style={styles.options}>
-                    <OptionsButton label="Boletim" activeOpacity={0.9}/>
-                    <OptionsButton label="Mensagens" activeOpacity={0.9}/>
-                </View>
-                <View style={styles.options}>
-                    <OptionsButton label="Declarações" activeOpacity={0.9}/>
-                    <OptionsButton label="Foto" activeOpacity={0.9}/>
-                </View>
-                <View style={styles.options}>
-                    <OptionsButton label="Código de Entrada" activeOpacity={0.9}/>
-                </View> */}
-
                 <View style={styles.options}>
                     <OptionsButton label="Aulas e faltas" activeOpacity={0.9}/>
                     <OptionsButton label="Mensagens" activeOpacity={0.9}/>
