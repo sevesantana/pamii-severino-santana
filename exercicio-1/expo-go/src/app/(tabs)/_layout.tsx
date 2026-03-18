@@ -41,28 +41,41 @@ export default function Layout(){
             <Tabs.Screen name="index" options={{
                 
                 tabBarIcon: ({focused}) => 
-                <View style = {{
-                    backgroundColor: focused ? theme.colors.icon.selectedBackground : "transparent",
-                    borderRadius: 16,
-                    height: 28,
-                    width: 56,
-                    justifyContent: "center",
-                    alignItems: "center",
-                }}>
-                    <Octicons 
-                    name="home" 
-                    color={focused ? theme.colors.icon.selected : theme.colors.icon.unselected} 
-                    size={18}
-                    />
+                    <View style = {{
+                        backgroundColor: focused ? theme.colors.icon.selectedBackground : "transparent",
+                        borderRadius: 16,
+                        height: 28,
+                        width: 56,
+                        justifyContent: "center",
+                        alignItems: "center",
+                    }}>
+                        <Octicons 
+                        name="home" 
+                        color={focused ? theme.colors.icon.selected : theme.colors.icon.unselected} 
+                        size={18}
+                        />
 
                     </View>,
 
                 tabBarLabel: "Home",
             }}/>
             <Tabs.Screen name="settings" options={{
-                tabBarIcon: ({color}) => <Ionicons name="settings-sharp" color={color} size={20} />,
+                tabBarIcon: ({focused}) =>
+                     <View style={{
+                        backgroundColor: focused ? theme.colors.icon.selectedBackground : "transparent",
+                        borderRadius: 16,
+                        height: 28,
+                        width: 56,
+                        justifyContent: "center",
+                        alignItems: "center",
+                     }}>
+                        <Ionicons 
+                        name="settings-sharp" 
+                        color={focused ? theme.colors.icon.selected : theme.colors.icon.unselected} 
+                        size={20} />
+                     </View>,
+
                 tabBarLabel: "Settings",
-                headerTitle: "Settings"
             }}/>
         </Tabs>
     )

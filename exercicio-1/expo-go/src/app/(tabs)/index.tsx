@@ -14,7 +14,7 @@ export default function Index() {
                 </Text>
 
                 <View style={styles.optionText}>
-                    <OptionText label="HELP"/>
+                    <OptionText label="HELP" activeOpacity={1}/>
                 </View>
             </View>
 
@@ -36,7 +36,7 @@ export default function Index() {
                 </Text>
 
                 <View style={styles.optionText}>
-                    <OptionText label="CLEAR" />
+                    <OptionText label="CLEAR" activeOpacity={1}/>
                 </View>
             </View>
 
@@ -54,8 +54,8 @@ const styles = StyleSheet.create ({
         color: theme.colors.aWhite,
         fontWeight: 500,
         fontSize: 14,
-        marginLeft: 32,
-        marginTop: 12,
+        marginLeft: 8,
+        marginTop: 8,
     },
     titleBox: {
         flexDirection: "row",
@@ -68,14 +68,15 @@ const styles = StyleSheet.create ({
     },
     buttonBox: {
         marginTop: 24,
+        marginBottom: 24,
         backgroundColor: theme.colors.gray,
         borderRadius: 12,
-        borderWidth: 0.6,
+        borderWidth: 1,
         overflow: "hidden",
         borderColor: theme.colors.beige
     },
     separator: {
-        height: 0.6,
+        height: 1,
         backgroundColor: theme.colors.beige,
     }
 })

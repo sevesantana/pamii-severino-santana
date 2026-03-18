@@ -8,7 +8,7 @@ type ButtonProps = TouchableOpacityProps & {
 
 export function OptionText( { label , ...rest} : ButtonProps ){
     return (
-        <TouchableOpacity>
+        <TouchableOpacity {...rest}>
             <Text style={styles.label}>
                 {label}
             </Text>

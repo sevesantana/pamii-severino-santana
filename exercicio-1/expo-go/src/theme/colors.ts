@@ -6,6 +6,9 @@ export const colors = {
     aWhite: "#e6edf3",
     purple: "#9ea1ff",
     darkPurple: "#4f378b",
+    red: "#8c1d18",
+    lightRed: "#f2b8b5",
+
 
     icon: {
         selected: "#e8def8",
