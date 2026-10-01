@@ -1,0 +1,8 @@
+{
+  "name": "todo-restful-api",
+  "version": "1.0.0",
+  "description": "To-do list seguindo as restrições do REST (RESTful)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}

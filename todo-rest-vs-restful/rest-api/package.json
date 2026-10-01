@@ -1,0 +1,8 @@
+{
+  "name": "todo-rest-api",
+  "version": "1.0.0",
+  "description": "To-do list no estilo 'REST API' informal (RPC sobre HTTP)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}
